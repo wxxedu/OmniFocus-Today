@@ -1,9 +1,9 @@
 {
   "author": "Xiuxuan Wang",
-  "identifier": "com.xiuxuan.utilities",
+  "identifier": "com.xiuxuan.omnifocus-today",
   "defaultLocale": "en",
   "version": "1.11",
-  "description": "Several very useful utilities functions.",
+  "description": "A Today Perspective for Omnifocus, and more.",
   "actions": [
     {
       "image": "attach-number.png",
