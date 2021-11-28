@@ -1,0 +1,33 @@
+{
+  "author": "Xiuxuan Wang",
+  "identifier": "com.xiuxuan.utilities",
+  "defaultLocale": "en",
+  "version": "1.11",
+  "description": "Several very useful utilities functions.",
+  "actions": [
+    {
+      "image": "attach-number.png",
+      "identifier": "attachNumber"
+    },
+    {
+      "image": "up-arrow.png",
+      "identifier": "moveUp"
+    },
+    {
+      "image": "down-arrow.png",
+      "identifier": "moveDown"
+    },
+    {
+      "image": "session-logo.png",
+      "identifier": "openInSession"
+    }
+  ],
+  "libraries": [
+    {
+      "identifier": "UtilitiesLibrary"
+    },
+    {
+      "identifier": "DateLibrary"
+    }
+  ]
+}
