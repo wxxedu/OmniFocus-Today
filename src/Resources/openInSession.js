@@ -28,13 +28,15 @@
         if (containingProject != null) {
             projectName = containingProject.name
             let parentFolder = containingProject.parentFolder
-            parentFolderName = parentFolder.name
             if (parentFolder != null) {
+                parentFolderName = parentFolder.name
                 let folder = parentFolder
                 while (folder.parent != null) {
                     folder = folder.parent
                 }
                 rootFolderName = folder.name
+            } else {
+                rootFolderName = ""
             }
         }
         let minutes = selected.estimatedMinutes

@@ -2,7 +2,7 @@
   "author": "Xiuxuan Wang",
   "identifier": "com.xiuxuan.omnifocus-today",
   "defaultLocale": "en",
-  "version": "1.11",
+  "version": "1.20",
   "description": "A Today Perspective for Omnifocus, and more.",
   "actions": [
     {
