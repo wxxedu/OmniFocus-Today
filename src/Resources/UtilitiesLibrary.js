@@ -56,17 +56,11 @@ lib.clearFinishedRepeatedFromToday = function() {
     // }
     let tasks = lib.allTasks([lib.taskHasDueDate, lib.taskIsActive])
     for (task of tasks) {
-        if (lib.inRepetitionCycle(task) == null) {
+        if (lib.dateOccursToday(task.dueDate)) {
+            task.flagged = true;
             continue
-        } else if (lib.inRepetitionCycle(task)) {
-            if (lib.dateOccursToday(task.dueDate)) {
-                task.flagged = true;
-                continue
-            } else {
-                continue
-            }
         } else {
-            task.flagged = false
+            task.flagged = false;
         }
         // if (lib.dateOccursToday(task.dueDate) || task.dueDate < date) {
         //     task.flagged = true
